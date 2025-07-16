@@ -1,0 +1,96 @@
+
+/* font-section */
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* button-section */
+
+.btn-primary{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 43px;
+    color: #FFFFFF;
+    background-color: #E55473;
+    border: none;
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+/* banner-section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px 0px 240px;
+}
+
+
+.banner-title{
+    font-weight: bolder;
+    font-size: 80px;
+    margin-top: 197px;
+    margin-bottom: 32px;
+    
+    
+}
+
+.banner-description{
+    font-weight: 400px;
+    font-size: 18px;
+    color: #27272780;
+    margin-bottom: 32px;
+    
+}
+
+
+.banner-contant{
+    max-width: 708;
+    
+}
+
+.banner-flower-pic{
+    width: 635px;
+    margin: 50px 240px 0px 97px;
+}
+
+/* header-section */
+
+.header{
+    
+}
+
+/* background-color-section */
+
+.background-color{
+    background-color: #e554732a;
+}
+
+/* body-section */
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+ 
+
+/* media-query-section */
+    @media screen and (max-width:576px) {
+        .banner{
+            flex-direction: column;
+            align-items: flex-end;
+            
+        }
+        .banner-flower-pic{
+            display: block;
+            margin: 20px auto;
+            max-width: 100px;
+            height: auto;
+        }
+    }
